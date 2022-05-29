@@ -5,7 +5,7 @@ export const projects = [
         image: '/images/1.png',
         tags: ['React', 'Django', 'Netlify'],
         // source: 'https://google.com',
-        visit: 'https://test255.hometutor.co.tz',
+        visit: 'https://test255.netlify.app/',
         id: 0,
     },
     {
@@ -21,9 +21,9 @@ export const projects = [
         title: 'Udictihub',
         description: "UDICTI is University of Dar es Salaam Incubator, looking to nurture students into Successful Entrepreneurs.",
         image: '/images/3.png',
-        tags: ['Angular', 'Django', 'Firebase'],
+        tags: ['Nextjs', 'Nodejs', 'Directus'],
         source: 'https://google.com',
-        visit: 'https://udictihub.tk',
+        visit: 'https://udicti.udsm.ac.tz/',
         id: 2,
     },
     {

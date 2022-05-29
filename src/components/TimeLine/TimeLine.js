@@ -56,7 +56,8 @@ const Timeline = () => {
         <Section id='about'>
             <SectionTitle>About Me</SectionTitle>
             <SectionText>
-                i love tech. i want to learn all, everything! i am also interested in Cyber Security currently taking my practices in tryhackme!
+                i love tech. i want to learn all, everything! i am also interested in Cyber Security and security research currently
+                taking my practices in tryhackme and TCM Security Academy!
                 my hobbies are Dancing, Acting and videography.
             </SectionText>
             <CarouselContainer ref={carouselRef} onScroll={handleScroll}>

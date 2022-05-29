@@ -17,8 +17,8 @@ const Technologies = () =>  (
                 <ListContainer>
                     <ListTitle>Front-End/ Design</ListTitle>
                     <ListParagraph>
-                        i have a good experience with <br/>
-                        Angular cli, Reactjs and Figma
+                        good experience with
+                        Angular 2+,<br/> Reactjs(Nextjs) and Figma
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
@@ -27,8 +27,8 @@ const Technologies = () =>  (
                 <ListContainer>
                     <ListTitle>Back-End</ListTitle>
                     <ListParagraph>
-                        node framework such as <br />
-                        Nestjs and django
+                        node frameworks such as <br />
+                        Nestjs and expressjs
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
