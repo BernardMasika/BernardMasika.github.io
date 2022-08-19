@@ -18,7 +18,7 @@ const Technologies = () =>  (
                     <ListTitle>Front-End/ Design</ListTitle>
                     <ListParagraph>
                         good experience with
-                        Angular 2+,<br/> Reactjs(Nextjs) and Figma
+                        Angular 2+,<br/> now Nextjs and Figma
                     </ListParagraph>
                 </ListContainer>
             </ListItem>

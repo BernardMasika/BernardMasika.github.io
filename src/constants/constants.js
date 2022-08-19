@@ -1,21 +1,12 @@
 export const projects = [
     {
-        title: 'HomeTutor',
+        title: 'HomeTutor Tz',
         description: "Are you looking a tutor to teach you or your kid at home!?, hometutor provides you with best teachers you will ever had!",
         image: '/images/1.png',
-        tags: ['React', 'Django', 'Netlify'],
+        tags: ['Nextjs', 'Django', 'Vercel', 'heroku'],
         // source: 'https://google.com',
-        visit: 'https://test255.netlify.app/',
+        visit: 'https://hometutor.vercel.app/',
         id: 0,
-    },
-    {
-        title: 'Nifulie',
-        description: "Get a laundry service at home or dry cleaning delivery with just few clicks and at a cheap price!",
-        image: '/images/2.png',
-        tags: ['Angular', 'Bfastjs', 'Firebase'],
-        source: 'https://google.com',
-        visit: 'https://nifulie.com',
-        id: 1,
     },
     {
         title: 'Udictihub',
@@ -24,7 +15,7 @@ export const projects = [
         tags: ['Nextjs', 'Nodejs', 'Directus'],
         source: 'https://google.com',
         visit: 'https://udicti.udsm.ac.tz/',
-        id: 2,
+        id: 1,
     },
     {
         title: 'Vijanatz Incubator LandingPage',
@@ -34,6 +25,15 @@ export const projects = [
         tags: ['Angular', 'Firebase'],
         source: 'https://google.com',
         visit: 'https://VijanatzIncubator.web.app',
+        id: 2,
+    },
+    {
+        title: 'Nifulie',
+        description: "Get a laundry service at home or dry cleaning delivery with just few clicks and at a cheap price!",
+        image: '/images/2.png',
+        tags: ['Angular', 'Bfastjs', 'Firebase'],
+        source: 'https://google.com',
+        visit: 'https://nifulie.com',
         id: 3,
     },
 ];
