@@ -11,7 +11,7 @@ import {
     CarouselItemTitle,
     CarouselMobileScrollNode
 } from './TimeLineStyles';
-import {Section, SectionDivider, SectionText, SectionTitle} from '../../styles/GlobalComponents';
+import {Section, SectionText, SectionTitle} from '../../styles/GlobalComponents';
 import {TimeLineData} from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
@@ -56,8 +56,9 @@ const Timeline = () => {
         <Section id='about'>
             <SectionTitle>About Me</SectionTitle>
             <SectionText>
-                i love tech. i want to learn all, everything! i am also interested in Cyber Security, 3D Game Development, in fact i am currently
-                adapting C# and learning Unity!<br/>
+                i love tech. i want to learn all, everything! i am also interested in Cyber Security, 3D Game Development, now investing all my energy
+                into Virtual Reality Apps, Training Simulations and Games Development using Unity(C#)
+               <br/>
                 my hobbies are Dancing, Acting and videography.
             </SectionText>
             <CarouselContainer ref={carouselRef} onScroll={handleScroll}>

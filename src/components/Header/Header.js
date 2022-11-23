@@ -35,10 +35,10 @@ const Header = () =>  (
           <SocialIcons href='https://github.com/BernardMasika'>
               <AiFillGithub size='3rem' />
           </SocialIcons>
-          <SocialIcons href='https://twitter.com/dev_mindkit'>
+          <SocialIcons href='https://twitter.com/bernard_masika'>
               <AiFillTwitterSquare size='3rem' />
           </SocialIcons>
-          <SocialIcons href='https://www.linkedin.com/in/bernard-masika-83a4a817b/'>
+          <SocialIcons href='https://www.linkedin.com/in/bernard-masika/'>
               <AiFillLinkedin size='3rem' />
           </SocialIcons>
           <SocialIcons href='https://instagram.com/bernard_masika'>

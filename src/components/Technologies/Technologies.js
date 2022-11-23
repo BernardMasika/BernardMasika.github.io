@@ -1,5 +1,5 @@
 import React from 'react';
-import {DiAndroid, DiFirebase, DiReact} from 'react-icons/di';
+import {DiAndroid, DiFirebase, DiReact , DiUnitySmall} from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -39,6 +39,15 @@ const Technologies = () =>  (
                     <ListParagraph>
                         good experience with <br/>
                         React Native
+                    </ListParagraph>
+                </ListContainer>
+            </ListItem>
+            <ListItem>
+                <DiUnitySmall size='3rem' />
+                <ListContainer>
+                    <ListTitle>XR Development</ListTitle>
+                    <ListParagraph>
+                        Experience with Unity
                     </ListParagraph>
                 </ListContainer>
             </ListItem>

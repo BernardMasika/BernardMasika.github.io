@@ -2,7 +2,7 @@ import React from 'react';
 import {AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle} from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer } from './FooterStyles';
 
 const Footer = () => {
   return (
@@ -25,10 +25,10 @@ const Footer = () => {
                  <SocialIcons href='https://github.com/BernardMasika'>
                      <AiFillGithub size='3rem' />
                  </SocialIcons>
-                 <SocialIcons href='https://twitter.com/dev_mindkit'>
+                 <SocialIcons href='https://twitter.com/bernard_masika'>
                      <AiFillTwitterCircle size='3rem' />
                  </SocialIcons>
-                 <SocialIcons href='https://www.linkedin.com/in/bernard-masika-83a4a817b/'>
+                 <SocialIcons href='https://www.linkedin.com/in/bernard-masika/'>
                      <AiFillLinkedin size='3rem' />
                  </SocialIcons>
                  <SocialIcons href='https://instagram.com/bernard_masika'>

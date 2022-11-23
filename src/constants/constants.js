@@ -1,5 +1,14 @@
 export const projects = [
     {
+        title: 'PaintBall VR Game',
+        description: "Get your hands on shooting bottles using paintball gun in Virtual Reality.\n supports Oculus Quest 2 only",
+        image: '/images/PaintBall VR Game Demo-Cover.jpg',
+        tags: ['c#', 'Unity', 'Oculus'],
+        source: 'https://google.com',
+        visit: 'https://drive.google.com/drive/folders/1B7VG-uesfuS3-_2nIBNYTnYptB831SEc?usp=sharing',
+        id: 3,
+    },
+    {
         title: 'HomeTutor Tz',
         description: "Are you looking a tutor to teach you or your kid at home!?, hometutor provides you with best teachers you will ever had!",
         image: '/images/1.png',
@@ -13,7 +22,7 @@ export const projects = [
         description: "UDICTI is University of Dar es Salaam Incubator, looking to nurture students into Successful Entrepreneurs.",
         image: '/images/3.png',
         tags: ['Nextjs', 'Nodejs', 'Directus'],
-        source: 'https://google.com',
+        // source: 'https://google.com',
         visit: 'https://udicti.udsm.ac.tz/',
         id: 1,
     },
@@ -23,18 +32,9 @@ export const projects = [
             "Youth ICT Empowerment Project designed to improve the employability of disadvantaged African youth aged 16 to 35",
         image: '/images/4.png',
         tags: ['Angular', 'Firebase'],
-        source: 'https://google.com',
+        // source: 'https://google.com',
         visit: 'https://VijanatzIncubator.web.app',
         id: 2,
-    },
-    {
-        title: 'Nifulie',
-        description: "Get a laundry service at home or dry cleaning delivery with just few clicks and at a cheap price!",
-        image: '/images/2.png',
-        tags: ['Angular', 'Bfastjs', 'Firebase'],
-        source: 'https://google.com',
-        visit: 'https://nifulie.com',
-        id: 3,
     },
 ];
 
