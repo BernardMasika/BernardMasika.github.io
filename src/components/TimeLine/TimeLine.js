@@ -59,7 +59,7 @@ const Timeline = () => {
                 i love tech. i want to learn all, everything! i am also interested in Cyber Security, 3D Game Development, now investing all my energy
                 into Virtual Reality Apps, Training Simulations and Games Development using Unity(C#)
                <br/>
-                my hobbies are Dancing, Acting and videography.
+                My hobbies are Dancing, videography, Reading Books, Playing video Games, and watching movies.
             </SectionText>
             <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
                 <>

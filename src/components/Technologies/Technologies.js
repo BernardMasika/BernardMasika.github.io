@@ -1,7 +1,8 @@
 import React from 'react';
-import {DiAndroid, DiFirebase, DiReact , DiUnitySmall} from 'react-icons/di';
+import {DiAndroid, DiBlackberry, DiFirebase, DiReact, DiUnitySmall} from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import {SiBlender} from "react-icons/all";
 
 const Technologies = () =>  (
     <Section id='tech'>
@@ -9,45 +10,44 @@ const Technologies = () =>  (
         <br/>
         <SectionTitle>Technologies</SectionTitle>
         <SectionText>
-            I've worked with a range of technologies in web development, UI/UX Design and some in the backend.
+            I've worked with a range of technologies in FrontEnd, UI/UX Design and now with XR development.
         </SectionText>
         <List>
             <ListItem>
-                <DiReact size='3rem' />
+                <DiReact size='3rem' style={{opacity: 0.3}}/>
                 <ListContainer>
-                    <ListTitle>Front-End/ Design</ListTitle>
-                    <ListParagraph>
+                    <ListTitle style={{opacity: 0.3}}>Front-End/ Design</ListTitle>
+                    <ListParagraph style={{opacity: 0.3}}>
                         good experience with
                         Angular 2+,<br/> now Nextjs and Figma
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
             <ListItem>
-                <DiFirebase size='3rem' />
+                <DiAndroid size='3rem' style={{opacity: 0.3}}/>
                 <ListContainer>
-                    <ListTitle>Back-End</ListTitle>
-                    <ListParagraph>
-                        node frameworks such as <br />
-                        Nestjs and expressjs
-                    </ListParagraph>
-                </ListContainer>
-            </ListItem>
-            <ListItem>
-                <DiAndroid size='3rem' />
-                <ListContainer>
-                    <ListTitle>Mobile Development</ListTitle>
-                    <ListParagraph>
+                    <ListTitle style={{opacity: 0.3}}>Mobile Development</ListTitle>
+                    <ListParagraph style={{opacity: 0.3}}>
                         good experience with <br/>
                         React Native
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
             <ListItem>
-                <DiUnitySmall size='3rem' />
+                <DiUnitySmall size='3rem'  />
                 <ListContainer>
                     <ListTitle>XR Development</ListTitle>
                     <ListParagraph>
-                        Experience with Unity
+                        Experienced with Unity
+                    </ListParagraph>
+                </ListContainer>
+            </ListItem>
+            <ListItem>
+                <SiBlender size='3rem' />
+                <ListContainer>
+                    <ListTitle>3D Artistry</ListTitle>
+                    <ListParagraph>
+                        Experienced with Blender
                     </ListParagraph>
                 </ListContainer>
             </ListItem>

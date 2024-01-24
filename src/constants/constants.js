@@ -1,9 +1,39 @@
 export const projects = [
     {
-        title: 'PaintBall VR Game',
-        description: "Get your hands on shooting bottles using paintball gun in Virtual Reality.\n supports Oculus Quest 2 only",
+        title: 'TicTacToe VR Game',
+        description: "Enjoy out classic Tictactoe game in an immersive and fun way.\n supports Quest devices only",
         image: '/images/PaintBall VR Game Demo-Cover.jpg',
-        tags: ['c#', 'Unity', 'Oculus'],
+        youtubeVideo: {
+            src: "https://www.youtube.com/embed/eKoOJYP17zk",
+            title: "TicTacToe VR",
+        },
+        tags: ['c#', 'Unity', 'VRIK'],
+        source: 'https://google.com',
+        visit: 'https://github.com/BernardMasika/XRBootcampEligibilityTest/releases',
+        id: 3,
+    },
+    {
+        title: 'C-Section VR',
+        description: "The use of VR in surgery training starting with c-section. supports Quest devices only",
+        image: '/images/PaintBall VR Game Demo-Cover.jpg',
+        youtubeVideo: {
+            src: "https://www.youtube.com/embed/YYoscqQVc8c",
+            title: "C- SECTION VR Training Simulation v0.4.0",
+        },
+        tags: ['c#', 'Unity', 'HurricaneVR'],
+        source: 'https://google.com',
+        visit: '#',
+        id: 3,
+    },
+    {
+        title: 'PaintBall VR Game',
+        description: "Get your hands on shooting bottles using paintball gun in Virtual Reality.\n supports Quest devices only",
+        image: '/images/PaintBall VR Game Demo-Cover.jpg',
+        youtubeVideo: {
+            src: "https://www.youtube.com/embed/ip5lo51Jxcc",
+            title: "PaintBall VR Demo 2 (early version)",
+        },
+        tags: ['c#', 'Unity'],
         source: 'https://google.com',
         visit: 'https://drive.google.com/drive/folders/1B7VG-uesfuS3-_2nIBNYTnYptB831SEc?usp=sharing',
         id: 3,

@@ -12,9 +12,8 @@ const Hero = (props) => (
                 I Am Bernard
             </SectionTitle>
             <SectionText>
-                a fullstack Web and a mobile developer based on javaScript frameworks and tools.
-               Currently am venturing the world of
-                <HeaderThree>Extended Reality (VR, AR)</HeaderThree>
+                A Front-End Developer who turned into
+                <HeaderThree>Extended Reality (VR,AR,MR) Developer</HeaderThree>
             </SectionText>
             <Button>
                 <a style={{ textDecoration: 'none', color: '#fff'}} href='#about'>Read More</a>
